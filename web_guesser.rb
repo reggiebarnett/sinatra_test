@@ -4,6 +4,7 @@ require 'sinatra/reloader'
 SECRET = rand(100)
 color = 'white'
 
+
 def check_guess(guess)
 	if guess == SECRET
 		message = "You got it right!"
